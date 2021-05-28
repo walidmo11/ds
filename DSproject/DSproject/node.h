@@ -2,7 +2,9 @@
 class node
 {
 	int data;
-	node* next,*head;
+	node* next;
+	node* head;
+	node();
 	void insirtnode(int);
 	void display(int);
 };
