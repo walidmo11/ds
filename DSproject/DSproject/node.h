@@ -7,8 +7,7 @@ public:
 	node* next;
 	node* head;
 	node();
-	void insirtnode(int v,int y,int m ,int d);
+	void insirtnode(int);
 	void display();
-	void test();
 };
 

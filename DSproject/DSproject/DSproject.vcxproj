@@ -141,9 +141,11 @@
   <ItemGroup>
     <ClCompile Include="node.cpp" />
     <ClCompile Include="Source.cpp" />
+    <ClCompile Include="wallet.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="node.h" />
+    <ClInclude Include="wallet.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

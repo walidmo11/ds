@@ -1,16 +1,17 @@
 #include "node.h"
+#include"wallet.h"
 #include <iostream>
 using namespace std;
 node::node() {
 	head = NULL;
 }
-void node::insirtnode(int value,int year,int month,int day) {
+void node::insirtnode(int value) {
 	node* newnode,*last;
 	newnode = new node;
 	newnode->data = value;
-	newnode->years = year;
-	newnode->months = month;
-	newnode->days = day;
+	cout << "enter the year:"; cin >> newnode->years;
+	cout << "enter the month:"; cin >> newnode->months;
+	cout << "enter the day:"; cin >> newnode->days;
 	if (head == NULL) {
 		head=newnode;
 		newnode->next = NULL;
@@ -39,6 +40,4 @@ void node::display() {
 	}
 
 }
-void node::test() {
-	cout << "hhh";
-}
+
