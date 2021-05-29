@@ -7,7 +7,8 @@ int main() {
 	node node1;
 	wallet wallet1;
 	cout << "-------------------------main menue------------------------------" << endl;
-	cout << "enter 1 to add wallet ,2 to add expenses, 0 to exit:"; cin >> nav;	while (nav != 3) {
+	cout << "enter 1 to add wallet ,2 to add expenses, 0 to exit:"; cin >> nav;
+	while (nav != 0) {
 		if (nav == 1) {	
 			wallet1.addwallet();
 			cout << "-------------------------main menue------------------------------" << endl;
